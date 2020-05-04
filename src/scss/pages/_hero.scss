@@ -1,0 +1,259 @@
+header{
+    // background-color: whitesmoke;
+    background-image: url("images/320.jpg");
+    // background: linear-gradient(180deg, rgba(32, 168, 89, 1), rgba(103, 158, 154, 0.1)), url("images/320.jpg");
+    // background-blend-mode: screen;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    .hero{
+        
+        &__image{
+            // background-color: slateblue ;
+            // .wave{
+            //     position: absolute;
+            //     top: 0;
+            //     left: 0;
+            // }
+
+        }
+        &__logo{
+            // background-color: palegreen;
+
+        }
+        &__intro{
+            background-color: $clSecTrans;
+            &--title{
+                padding-top: 1rem;
+                h2{
+                    text-align: center;
+                    font-size: 1.3rem;
+                    color: $clSecTextos;
+                }
+            } 
+            &--text{
+                padding: 0.5rem 1rem;
+                text-align: justify;
+                p{
+                    color: $clSecDark;
+                }
+            }
+        }
+        &__slogan{
+            background-color:$clSecTrans;
+            display: flex;
+                justify-content: center;
+                align-items: center;
+                z-index: 10001;
+            &--text{
+                // text-align: center;
+                
+                h2{
+                    color: $clSecTextos;
+                }
+                .title{
+
+                }
+            }
+            
+        }   
+    }
+}
+
+
+@include mQ(xsS){
+  body{
+    // background-color: rebeccapurple;
+    
+  }
+}
+@include mQ(smallS){
+  body{
+    // background-color: orangered;
+    header{
+        background-image: url("images/480.jpg");
+    }
+  }
+}
+@include mQ(mediumS){
+  body{
+    // background-color: yellowgreen;
+    header{
+        background-image: url("images/600.jpg");
+        .hero{
+            &__logo{
+                // background-color: palegreen;
+                margin-top: -1rem;
+            }
+            &__intro{
+            // background-color: $clSecTrans;
+                &--title{
+                    padding-top: 1.5rem;
+                    
+                    h2{
+                        margin: 1rem -5rem 0 -5rem;
+                        // text-align: center;
+                        font-size: 1.5rem;
+                        color: $clSecDark;
+                    }
+                } 
+                &--text{
+                    padding: 1rem;
+                    text-align: center;
+                    p{
+                        margin: 1rem -5rem 0 -5rem;
+                        color: $clSecDark;
+                    }
+                }
+            }
+        }
+    }
+  }
+}
+@include mQ(wideS){
+    body{
+        // background-color: teal;
+        header{
+            background-image: url("images/800.jpg");
+            .hero{
+                &__logo{
+                    // background-color: palegreen;
+                    margin-top: 0rem;
+                }
+                &__intro{
+                // background-color: $clSecTrans;
+                    &--title{
+                        // padding-top: 1.5rem;
+                        
+                        h2{
+                            margin: 1rem -6rem 0 -6rem;
+                            // text-align: center;
+                            font-size: 1.8rem;
+                            // color: $clSecDark;
+                        }
+                    } 
+                    &--text{
+                        // padding: 1rem;
+                        // text-align: center;
+                        p{
+                            // margin: 1rem -5rem 0 -5rem;
+                            // color: $clSecDark;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@include mQ(largeS){
+    body{
+    // background-color: violet;
+        header{
+            background-image: url("images/920.jpg");
+            .hero{
+                &__logo{
+                    // background-color: palegreen;
+                    margin-top: 0rem;
+                }
+                &__intro{
+                // background-color: $clSecTrans;
+                    &--title{
+                        // padding-top: 1.5rem;
+                        
+                        h2{
+                            margin: 1rem -6rem 0 -6rem;
+                            // text-align: center;
+                            font-size: 1.8rem;
+                            // color: $clSecDark;
+                        }
+                    } 
+                    &--text{
+                        // padding: 1rem;
+                        // text-align: center;
+                        p{
+                            // margin: 1rem -5rem 0 -5rem;
+                            // color: $clSecDark;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@include mQ(xlS){
+    body{
+        // background-color: fuchsia;
+        header{
+            background-image: url("images/1200.jpg");
+            .hero{
+                &__logo{
+                    // background-color: palegreen;
+                    margin-top: 0rem;
+                }
+                &__intro{
+                // background-color: $clSecTrans;
+                    &--title{
+                        // padding-top: 1.5rem;
+                        
+                        h2{
+                            // margin: 1rem -6rem 0 -6rem;
+                            // text-align: center;
+                            font-size: 2.5rem;
+                            // color: $clSecDark;
+                        }
+                    } 
+                    &--text{
+                        // padding: 1rem;
+                        // text-align: center;
+                        p{
+                            // margin: 1rem -5rem 0 -5rem;
+                            // color: $clSecDark;
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@include mQ(sc){
+    body{
+    // background-color: violet;
+        header{
+            background-image: url("images/1366.jpg");
+            .hero{
+                &__logo{
+                    // background-color: palegreen;
+                    margin-top: 0rem;
+                }
+                &__intro{
+                // background-color: $clSecTrans;
+                    &--title{
+                        // padding-top: 1.5rem;
+                        
+                        h2{
+                            // margin: 1rem -6rem 0 -6rem;
+                            // text-align: center;
+                            font-size: 2.5rem;
+                            // color: $clSecDark;
+                        }
+                    } 
+                    &--text{
+                        // padding: 1rem;
+                        // text-align: center;
+                        p{
+                            // margin: 1rem -5rem 0 -5rem;
+                            // color: $clSecDark;
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@include mQ(xlS){
+  body{
+    // background-color: fuchsia;
+  }
+}

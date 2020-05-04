@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="MobileOptimized" content="320"/>
+    <meta name="theme-color" content="#1d70b8"/>
+    <meta name="msapplication-TileColor" content="#1d70b8"/>
+    <meta name="msapplication-TileImage" content="./images/logo.svg"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+    <link rel="apple-touch-startup-image" href="./images/logo.svg"/>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico"/>
+    <link rel="icon" type="image/png" href="./images/logo.png"/>
+    <link rel="apple-touch-icon" href="./images/logo.svg"/>
+    <link rel="author" type="text/plain" href="./humans.txt"/>
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="./sitemap.xml"/>
+    <link rel="manifest" href="./Manifest.json"/>
+    <title>Gestion con compromiso social | Personeria Municipal de Pitalito</title>
+    <meta name="description" content="">
+    <meta name="application-name" content="Personeria Municipal de Pitalito">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <section class="Header">
+      <section class="Header-container">
+        <h1 class="Logo"><a class="Logo-link" href="./">Personeria Municipal de Pitalito</a></h1><a class="Panel-button" href="#">
+          <button class="hamburger hamburger--spring" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></button></a>
+        <aside class="Panel">
+          <nav class="Menu">
+            <ul class="Menu-listItem">
+              <li class="Menu-item"><a class="Menu-link" href="#inicio" target="">Inicio</a></li>
+              <li class="Menu-item"><a class="Menu-link" href="#somos" target="">Quienes Somos</a></li>
+              <li class="Menu-item"><a class="Menu-link" href="#hacemos" target="">Que Hacemos</a></li>
+              <li class="Menu-item"><a class="Menu-link" href="#equipo" target="">Quienes lo Hacen</a></li>
+              <li class="Menu-item"><a class="Menu-link" href="#contacto" target="">Contacto</a></li>
+            </ul>
+          </nav>
+        </aside>
+      </section>
+    </section>
+    <header>
+      <div class="hero">
+        <div class="hero__image"></div>
+        <div class="hero__logo"><img src="images/logoCompleto.png" alt="Personeria Municipal Pitalito" width="100%"></div>
+        <div class="hero__intro">
+          <div class="hero__intro--title">
+            <h2>Un verdadero compromiso  </h2>
+          </div>
+          <div class="hero__intro--text">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis minima quod facilis ex asperiores illum?</p>
+          </div>
+        </div>
+        <div class="hero__slogan">
+          <div class="hero__slogan--text">
+            <h2 class="title">"Gestión con compromiso social" </h2>
+          </div>
+        </div>
+      </div>
+    </header></svg>
+    <script src="./script.js"></script>
+    <script src="/node_modules/wowjs/dist/wow.min.js"></script>
+    <script>new WOW().init();</script>
+    <script>
+      $(".services").owlCarousel({margin:20, 
+      loop:true, 
+      autoplay:true, 
+      autoplayTimeout:2000, 
+      autoplayHoverPause:true,
+      responsiveClass:true,
+      responsive:{0:{ items:1 }, 600:{ items:2 }, 1000:{ items:3 } }
+      });
+    </script>
+  </body>
+</html>

@@ -1,3 +1,4 @@
+
 //- ===============================
 //- colores adicionales
 //- ===============================
@@ -6,16 +7,21 @@
 //- ===============================
 //- color primario
 //- ===============================
-$clBase: $color;
+$clBase: $primario;
 $clBaseClaro: tint($clBase, 50%);
-$clBaseTextos:tint($clBase, 80%);
-$clTextoGen:#efefef;
+$clBaseTextos:tint($clBase, $tintTextos);
+$clBaseAdjust: adjust-color($secundario, $lightness: 10%, $alpha: -0.4);
 //- ===============================
 //- color secundario
 //- ===============================
 $clSecondary:$secundario;
 $clSecClaro: tint($clSecondary, 50%);
-$clSecTextos:tint($clSecondary, 80%);
+$clSecDark:darken($secundario, $darkColor);
+$clSecTextos:tint($clSecondary, $tintTextos);
+$clSecTrans: transparentize($secundario, $transparent);
+$clSecGray: grayscale($clSecondary); 
+$clSecHue: adjust-hue($secundario, $hueDeg);
+
 //- ===============================
 //- color resatle
 //- ===============================

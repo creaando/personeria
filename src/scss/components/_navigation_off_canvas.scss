@@ -1,12 +1,12 @@
-$header-bg-op-0: rgba(255, 205, 5, 0.1);
-$header-bg-op-1: rgba(255, 205, 5, 1);
-$header-bg-op-2: rgba(255, 205, 5, 0.9);
-$header-color: $baseredes;
+$header-bg-op-0: transparentize($primario, 1); //vista movil
+$header-bg-op-1: transparentize($primario, 0); //vista menu
+$header-bg-op-2: transparentize($primario, .1); //panel
+$header-color: $prueba01;
 $header-height: 4rem;
 $header-container-width: 1200px;
 
-// $logo-url: imgPath('escudo.png');
-$logo-url: "images/escudo.png";
+// $logo-url: $path('escudo.png');
+$logo-url: "images/logo.png";
 $logo-width: 4rem;
 $logo-height: 4rem;
 $logo-bg-size: 3rem;
@@ -16,6 +16,7 @@ $logo-position: start; //start | center | end
 $hamburger-position: end; //start | end
 
 $hamburger-color: $clTextoGen;
+$hamburger-colorMovile:$primario;
 
 @mixin panel-direction($dir) {
   @if $dir == left {
@@ -40,7 +41,7 @@ $hamburger-color: $clTextoGen;
 
 .hamburger-inner,
 .hamburger-inner:after,
-.hamburger-inner:before { background-color: $hamburger-color; }
+.hamburger-inner:before { background-color: $hamburger-colorMovile; }
 
 .u-afterFixed { padding-top: $header-height; }
 
@@ -146,6 +147,7 @@ $hamburger-color: $clTextoGen;
 
 @media screen and (min-width: 64em) {
   .Header {
+    background-color: $header-bg-op-1;
     &-container {
       grid-template: {
         columns: auto 1fr;

@@ -1,36 +1,40 @@
-.hero{
-    height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 1fr);
-    &__logo{
-        // background-color: red;
-        grid-column: 1 / 6;
-        grid-row: 2 / 4;
-        z-index: 14;
-    }
-    &__image{
-        // background-color: orangered;
-        grid-column: 5 / 9;
-        grid-row: 3 / 9;
-        z-index: 15;
-    }
-    &__contact{
-        // background-color: blueviolet;
-        grid-column: 7 / 9;
-        grid-row: 2 / 4;
-    }
-    &__emphasis{
-        // background-color: cadetblue;
-        grid-column: 3 / 9;
-        grid-row: 7 / 9;
-        z-index: 20;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        align-content: center;
+header{
+    // background-color: whitesmoke;
+    .hero{
+        // background-color: orange;
+        &__image{
+            // background-color: slateblue ;
+
+        }
+        &__logo{
+            // background-color: palegreen;
+
+        }
+        &__intro{
+            // background-color: $clSecFondo;
+            &--title{
+                h2{
+
+                }
+            } 
+            &--text{
+                p{
+
+                }
+            }
+        }
+        &__slogan{
+            // background-color:$clSecFondo;
+            &--text{
+                h2{
+
+                }
+                .title{
+
+                }
+            }
+            
+        }
+            
     }
 }
-
-

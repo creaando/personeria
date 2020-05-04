@@ -1,7 +1,7 @@
 
 //GENERALES
 //path
-$path: './images/';
+$path: 'images/';
 
 //Tamaño de fuente para el proyecto
 //$fsBase:62.5%;
@@ -25,30 +25,38 @@ $bold:700;
 $ftroboto: 'Roboto', sans-serif;
 $ftOswald: 'Oswald', sans-serif;
 
+// helper - color
+$hueDeg         : 50deg;
+$tintTextos     : 90%;
+$darkColor      : 40%;
+$transparent    : 0.25;
+
 // Variables de color
-$color     : rgb(44, 43, 43);
-$txtResalte: #682917;
-$baseredes : #981914;
-$primario  : #efefef;
-$primario2 : #92af44;
-$prueba01  : #000000;
-$secundario: rgb(44, 55, 82);
-$resalte : #FFCD05;
-$clAlterno : #899d12;
+$color          : rgb(0, 169, 157);
+$txtResalte     : #682917;
+$baseredes      : #981914;
+$primario       : #1d70b8;
+$primario2      : #92af44;
+$prueba01       : #fff;
+$secundario     : rgb(32, 168, 89);
+$resalte        : #FFCD05;
+$clAlterno      : #899d12;
+$clTextoGen     : #efefef;
 
 // variables de media query
-// $xsScreen:470px;
+// $xsScreen    : 470px;
 // $smallScreen : 520px;
 // $mediumScreen: 750px;
 // $wideScreen  : 1024px;
 // $largeScreen : 1280px;
-// $xlScreen: 1366px;
-// $opScreen:1480px;
+// $xlScreen    : 1366px;
+// $opScreen    : 1480px;
 
-$xsScreen:      320px;
-$smallScreen :  480px;
-$mediumScreen:  600px;
-$wideScreen  :  760px;
-$largeScreen :  920px;
-$xlScreen:      1200px;
-$opScreen:      1400px;
+$xsScreen       : 320px;
+$smallScreen    : 480px;
+$mediumScreen   : 600px;
+$wideScreen     : 760px;
+$largeScreen    : 920px;
+$xlScreen       : 1200px;
+$screen         : 1366px;
+$opScreen       : 1400px;

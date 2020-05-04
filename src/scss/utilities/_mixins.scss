@@ -68,6 +68,11 @@
       @content;
     }
   }
+  @else if $media==sc {
+    @media screen and (min-width:$screen) {
+      @content;
+    }
+  }
   @else if $media==opS {
     @media screen and (min-width:$opScreen) {
       @content;

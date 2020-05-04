@@ -2,7 +2,7 @@ block config
   include ./components/config.pug
 
 include metatags_webapp.pug
-//- include ./components/navigation_off_canvas.pug
+include ./components/navigation_off_canvas.pug
 include ./components/contacto.pug
 //- include ./components/picture_webp.pug
 //- include ./components/slid.pug
@@ -10,7 +10,7 @@ include ./components/contacto.pug
 //- include ./components/slid/slidTitle.pug
 //- include ./components/slid/slidDescrip.pug
 //- include ./components/slid/slidControl.pug
-include ./components/section_services.pug
+//- include ./components/section_services.pug
 
 doctype html
 html(lang='es')
@@ -30,13 +30,13 @@ html(lang='es')
     link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css")
     link(rel="stylesheet", href="./style.css")
   body
-    //- +navigationOffCanvas([
-    //-   [pages[0], sites[0], ''],
-    //-   [pages[1], sites[1], ''],
-    //-   [pages[2], sites[2], ''],
-    //-   [pages[3], sites[3], ''],
-    //-   [pages[4], sites[4], '']
-    //- ] )
+    +navigationOffCanvas([
+      [pages[0], sites[0], ''],
+      [pages[1], sites[1], ''],
+      [pages[2], sites[2], ''],
+      [pages[3], sites[3], ''],
+      [pages[4], sites[4], '']
+    ] )
     
     block content
 
