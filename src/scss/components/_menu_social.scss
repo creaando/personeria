@@ -1,35 +1,35 @@
 .social{
   //background-color: blue;
   position: fixed;
-  top:35%;
-  right: 0;
+  top:40%;
+  left: 0;
   z-index: 10100;
   &-list{
     list-style: none;
     &__item{
       // @include centerFlex;
 
-      &:hover{
-        .fa{
-          background-color: $clSecondary;
-          // transform-origin: right;
-          // padding: 1.5rem;
-          border-radius: 50%;
-          box-shadow: 0 0 .5rem rgba(0, 0, 0, .6);
-          transform: translateX(-15px) scale(1.5);
-          will-change: transform;
-        }
-      }
+      // &:hover{
+      //   .fa{
+      //     background-color: $clSecondary;
+      //     // transform-origin: right;
+      //     // padding: 1.5rem;
+      //     border-radius: 50%;
+      //     box-shadow: 0 0 .5rem rgba(0, 0, 0, .6);
+      //     transform: translateX(-15px) scale(1.5);
+      //     will-change: transform;
+      //   }
+      // }
     }
     &__link{
       display: inline-block;
       @include centerFlex;
       color: $clTextoGen;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       .fa{
         // padding: 1.5rem 1rem;
-        width: 2rem;
-        height: 2rem;
+        width: 1.5rem;
+        height: 1.7rem;
         @include centerFlex;
         transition: background-color .5s .3s linear,
                     border-radius .2s ease-in-out,

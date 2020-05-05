@@ -8,14 +8,14 @@
 //- color primario
 //- ===============================
 $clBase: $primario;
-$clBaseClaro: tint($clBase, 50%);
+$clBaseClaro: tint($clBase, $ligthColorP);
 $clBaseTextos:tint($clBase, $tintTextos);
 $clBaseAdjust: adjust-color($secundario, $lightness: 10%, $alpha: -0.4);
 //- ===============================
 //- color secundario
 //- ===============================
 $clSecondary:$secundario;
-$clSecClaro: tint($clSecondary, 50%);
+$clSecClaro: tint($clSecondary, $ligthColorS);
 $clSecDark:darken($secundario, $darkColor);
 $clSecTextos:tint($clSecondary, $tintTextos);
 $clSecTrans: transparentize($secundario, $transparent);

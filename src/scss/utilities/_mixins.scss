@@ -4,7 +4,7 @@
 }
 
 //mixin de grid para los elementos padres en la maquetación
-@mixin gridBase ($col:repeat(5, 1fr), $filas:repeat(8, 1fr)) {
+@mixin gridBase ($col:repeat(12, 1fr), $filas:repeat(12, 1fr)) {
     display: grid;
     grid-template-columns: $col;
     grid-template-rows: $filas;
