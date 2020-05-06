@@ -73,7 +73,7 @@ main{
           }
           &__body{
             p{
-              padding: 0 1rem;
+              padding: 0 1.5rem;
               text-align: justify;
             }
           }
@@ -90,25 +90,25 @@ main{
   }
   .socialMedia{
     // background-color: palevioletred;
-    height: 120vh;
+    // height: 120vh;
     &__title{
       background-image: url("images/title_social.png");
       background-repeat: no-repeat;
       background-position: left;
       background-size: contain;
-      height: 10vh;
+      // height: 10vh;
     }
     &__intro{
-      padding: 0 1rem;
+      padding: 0 1.5rem;
       display: flex;
       justify-content: center;
       align-items: center;
       text-align: justify;
-      height: 10vh;
+      // height: 10vh;
     }
     &__content{
       // background-color: blue;
-      height: 100vh;
+      // height: 100vh;
       padding: 2rem 0;
       &--facebook,&--twitter,&--instagram{
         background-color: $primario;
@@ -132,18 +132,18 @@ main{
         // width: 95%;
       }
       &--facebook{
-        
+
       }
       &--twitter{
         margin: 1rem 0;
       }
       &--instagram{
-        
+
       }
     }
   }
 }
-    
+
 
 
 
@@ -152,7 +152,7 @@ main{
 @include mQ(xsS){
   main{
     // background-color: rebeccapurple;
-    
+
   }
 }
 @include mQ(smallS){

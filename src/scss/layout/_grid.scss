@@ -1,7 +1,7 @@
 header{
     // background-color: whitesmoke;
     height: 100vh;
-    
+
     .hero{
         // background-color: orange;
         height: 100vh;
@@ -27,7 +27,7 @@ header{
                 h2{
 
                 }
-            } 
+            }
             &--text{
                 p{
 
@@ -46,8 +46,8 @@ header{
 
                 }
             }
-            
-        }    
+
+        }
     }
 }
 
@@ -70,21 +70,24 @@ main{
     }
     .news{
         // background-color: palegreen;
-        height: 120vh;
+        height: 140vh;
         display: grid;
         grid-template-columns: repeat(12, 1fr);
         grid-template-rows: repeat(12, 1fr);
         &__title{
-            // background-color: peru;
-            grid-column: 2 / 13;
-            grid-row: 1 / 3;
+          height: 20vh;
+          // background-color: peru;
+          grid-column: 1 / 13;
+          grid-row: 1 / 3;
         }
         &__intro{
+          height: 20vh;
             // background-color:rebeccapurple;
             grid-column: 1 / 13;
             grid-row: 3 / 5;
         }
         &__sections{
+          height: 100vh;
             // background-color:plum;
             grid-column: 1 / 13;
             grid-row: 5 / 13;
@@ -123,20 +126,23 @@ main{
     }
     .socialMedia{
         // background-color: palevioletred;
-        // height: 100vh;
+        height: 130vh;
         @include gridBase;
         &__title{
             // background-color: red;
-            grid-column: 1 / 9;
+            height: 20vh;
+            grid-column: 1 / 10;
             grid-row: 1 / 3;
         }
         &__intro{
             // background-color: khaki;
+            height: 10vh;
             grid-column: 1 / 13;
             grid-row: 3 / 6;
         }
         &__content{
             // background-color: seagreen;
+            height: 100vh;
             grid-column: 1 / 13;
             grid-row: 6 / 13;
             @include gridBase($filas:11);
@@ -211,7 +217,7 @@ main{
                     &--title{
                         h2{
                         }
-                    } 
+                    }
                     &--text{
                         p{
                         }
@@ -238,7 +244,7 @@ main{
                     &--title{
                         h2{
                         }
-                    } 
+                    }
                     &--text{
                         p{
                         }
@@ -266,7 +272,7 @@ main{
                     &--title{
                         h2{
                         }
-                    } 
+                    }
                     &--text{
                         p{
                         }
@@ -293,7 +299,7 @@ main{
                     &--title{
                         h2{
                         }
-                    } 
+                    }
                     &--text{
                         p{
                         }
@@ -320,7 +326,7 @@ main{
                     &--title{
                         h2{
                         }
-                    } 
+                    }
                     &--text{
                         p{
                         }
