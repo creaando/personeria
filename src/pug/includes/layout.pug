@@ -38,24 +38,26 @@ html(lang='es')
       [pages[1], sites[1], ''],
       [pages[2], sites[2], ''],
       [pages[3], sites[3], ''],
-      [pages[4], sites[4], '']
+      [pages[4], sites[4], ''],
+      [pages[5], sites[5], ''],
+      [pages[6], sites[6], '']
     ] )
     +social([
       ['https://www.facebook.com/pg/LKarreta/posts/?ref=page_internal', 'facebook-f', 'fab', 'blank'],
       ['https://twitter.com/LKarreta', 'twitter', 'fab', 'blank'],
       ['https://www.instagram.com/lakarretah/', 'instagram', 'fab', 'blank']
     ])
-    
+
     block content
 
     script(src="./script.js")
     script(src="/node_modules/wowjs/dist/wow.min.js")
     script new WOW().init();
     script $(".services").owlCarousel({
-      | margin:20, 
-      | loop:true, 
-      | autoplay:true, 
-      | autoplayTimeout:2000, 
+      | margin:20,
+      | loop:true,
+      | autoplay:true,
+      | autoplayTimeout:2000,
       | autoplayHoverPause:true,
       | responsiveClass:true,
       | responsive:{0:{ items:1 }, 600:{ items:2 }, 1000:{ items:3 } }

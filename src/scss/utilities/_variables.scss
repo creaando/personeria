@@ -5,33 +5,33 @@ $path: 'images/';
 
 //Tamaño de fuente para el proyecto
 //$fsBase:62.5%;
-$fsBase:16px;
+$fsBase         : 16px;
 
 //alto general
-$hBase:100vh;
+$hBase          : 100vh;
 
 //fuentes
-// $ftIncosolata:'Inconsolata', monospace;
-// $ftyanone:'Yanone Kaffeesatz', sans-serif;
-// $ftRaleway:'Raleway', sans-serif;
+// $ftIncosolata: 'Inconsolata', monospace;
+// $ftyanone    : 'Yanone Kaffeesatz', sans-serif;
+// $ftRaleway   : 'Raleway', sans-serif;
 
 // grosor
-$ligth:300;
-$normal:400;
-$medium:500;
-$bold:700;
+$ligth          : 300;
+$normal         : 400;
+$medium         : 500;
+$bold           : 700;
 
 //Familia de fuentes
-$ftroboto: 'Roboto', sans-serif;
-$ftOswald: 'Oswald', sans-serif;
+$ftroboto       : 'Roboto', sans-serif;
+$ftOswald       : 'Oswald', sans-serif;
 
 // helper - color
 $hueDeg         : 50deg;
 $tintTextos     : 90%;
 $darkColor      : 40%;
 $transparent    : 0.25;
-$ligthColorP: 90%;
-$ligthColorS: 80%;
+$ligthColorP    : 90%;
+$ligthColorS    : 80%;
 
 // Variables de color
 $color          : rgb(0, 169, 157);

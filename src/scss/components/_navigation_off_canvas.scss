@@ -2,7 +2,7 @@ $header-bg-op-0: transparentize($primario, 1); //vista movil
 $header-bg-op-1: transparentize($primario, 0); //vista menu
 $header-bg-op-2: transparentize($primario, .1); //panel
 $header-color: $prueba01;
-$header-height: 4rem;
+$header-height: 5rem;
 $header-container-width: 1200px;
 
 // $logo-url: $path('escudo.png');
@@ -148,6 +148,7 @@ $hamburger-colorMovile:$primario;
 @media screen and (min-width: 64em) {
   .Header {
     background-color: $header-bg-op-1;
+    // background-color: rebeccapurple;
     &-container {
       grid-template: {
         columns: auto 1fr;
@@ -165,6 +166,9 @@ $hamburger-colorMovile:$primario;
     overflow-y: visible;
     transform: translate(0, 0);
     background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 
     &-button { display: none; }
   }
@@ -178,7 +182,15 @@ $hamburger-colorMovile:$primario;
       align-items: center;
     }
 
-    &-link { border-top: medium solid transparent; }
+    &-link {
+      border-top: medium solid transparent;
+      // background-color: red;
+      padding: 1rem 1rem;
+      font: {
+      // weight: $medium;
+      size: 1.1rem;
+    }
+    }
 
     &-link:hover {
       border-top: medium solid $header-color;
