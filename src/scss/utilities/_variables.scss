@@ -34,15 +34,15 @@ $ligthColorP    : 90%;
 $ligthColorS    : 80%;
 
 // Variables de color
-$color          : rgb(0, 169, 157);
-$txtResalte     : #682917;
-$baseredes      : #981914;
-$primario       : #1d70b8;
+$color          : rgb(0, 169, 157); // base de color del diseño
+$txtResalte     : #682917; //colores para usos especiales u opcionales
+$baseredes      : #981914; //colores para usos especiales u opcionales
+$primario       : #1d70b8; // color predominante en el diseño
 $primario2      : #92af44;
 $prueba01       : #fff;
-$secundario     : rgb(32, 168, 89);
-$resalte        : #FFCD05;
-$clAlterno      : #899d12;
+$secundario     : rgb(32, 168, 89); // color acentuante o contrastante del diseño
+$resalte        : #FFCD05; // color para usar en botones o en alertas
+$clAlterno      : #899d12; // color alternativo del secundario
 $clTextoGen     : #efefef;
 
 // variables de media query
