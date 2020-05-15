@@ -752,7 +752,7 @@ main{
               grid-row: 5 / 13;
               &--neWrapper{
                   // background-color: purple;
-                  height: 100%;
+                  // height: 100%;
                   .new{
                     height: 100%;
                       // display: grid;
@@ -762,7 +762,7 @@ main{
                           // background-color: blue;
                           height: 100%;
                           grid-column: 1 / 8;
-                          grid-row: 1 / 5;
+                          grid-row: 1 / 6;
                       }
                       &__title{
                           // background-color: brown;
@@ -776,15 +776,15 @@ main{
                       &__body{
                           // background-color: chartreuse;
                           height: 100%;
-                          grid-column: 4 / 13;
-                          grid-row: 5 / 8;
+                          grid-column: 6 / 13;
+                          grid-row: 3 / 6;
                           // z-index: 1001;
                       }
                       &__imageSecondary{
                           // background-color: paleturquoise;
                           height: 100%;
-                          grid-column: 5 / 13;
-                          grid-row: 8 / 13;
+                          grid-column: 1 / 13;
+                          grid-row: 6 / 13;
                       }
                   }
               }
